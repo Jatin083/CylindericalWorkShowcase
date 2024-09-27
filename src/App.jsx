@@ -1,7 +1,7 @@
 import { Canvas } from "@react-three/fiber"
 import React from 'react'
 import './style.css'
-import Cyl from "./Cyl.jsx";
+import Cyl from "./Cyl";
 import { Bloom, EffectComposer, ToneMapping } from "@react-three/postprocessing";
 
 const App = () => {
